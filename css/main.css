@@ -1,0 +1,53 @@
+.main {
+    width: 1260px;
+    height: 55vh;
+
+    /* background-color: #fff; */
+    box-sizing: border-box;
+
+    padding-top: 100px;
+    margin: 0 auto;
+
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    width: 600px;
+    height: 100%;
+
+    border-radius: 16px;
+
+    transition: .3s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card-first {
+    background-color: #6412945d;
+}
+
+.card-first:hover {
+    background-color: #7a16b4;
+    box-shadow: 0 0 20px #7a16b4;
+}
+
+.card-second {
+    background-color: #8645208f;
+}
+
+.card-second:hover {
+    background-color: #bb5e29;
+    box-shadow: 0 0 20px #bb5e29;
+}
+
+.card-third {
+    background-color: #6e6e6e8f;
+}
+
+.card-third:hover {
+    background-color: #999999;
+    box-shadow: 0 0 20px #999999;
+}
