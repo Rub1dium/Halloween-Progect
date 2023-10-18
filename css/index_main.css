@@ -15,17 +15,29 @@
 }
 
 
-.main__luminaire {
+.main__decor_absolute {
     width: 256px;
 
     position: absolute;
     z-index: 5;
 
-    opacity: .1;
-    transform: translateX(-45vw) translateY(40vh) rotate(25deg);
+    opacity: .2;
 
-    animation: luminaire_pumpkin 5s ease infinite alternate;
+    transition: .2s ease-in;
 }
+
+.decore__luminaire {
+    transform: translateX(-45vw) translateY(40vh) rotate(25deg);
+}
+
+.decore__broomstick {
+    transform: translateX(43vw) translateY(38vh) rotate(90deg);
+}
+
+.main__decor_absolute:hover {
+    opacity: 1;
+}
+
 
 
 .card__container__images {

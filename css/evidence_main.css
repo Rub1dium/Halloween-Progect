@@ -67,6 +67,13 @@
     transform: translateX(-45vw) translateY(-50vh);
 }
 
+.decor__network-duo {
+    opacity: .3;
+
+    filter: invert();
+    transform: translateX(45vw) translateY(-20vh);
+}
+
 .decor__skull {
     transform: translateX(-30vw);
 }
@@ -96,6 +103,11 @@
 
 .decor__candy-2 {
     transform: translateX(-30vw) translateY(440vh);
+}
+
+.decor__ghost-happy {
+    filter: invert();
+    transform: translateX(30vw) translateY(490vh);
 }
 
 
@@ -154,18 +166,29 @@
 }
 
 .video__block {
-    width: 700px;
-    height: 455px;
+    padding: 20px;
 
     background-color: #450d5f;
     border-radius: 12px;
 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+
+.video__block__text-description {
+    color: #fed7ff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+    margin-bottom: 20px;
 }
 
 .video__block iframe {
     border-radius: 12px;
+
+    box-shadow: 0 0 15px #000;
 }
 

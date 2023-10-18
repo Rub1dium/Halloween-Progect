@@ -1,3 +1,5 @@
-@import url("css/E_header.css");
-@import url("css/E_main.css");
-@import url("css/E_footer.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+@import url("css/evidence_header.css");
+@import url("css/evidence_main.css");
+@import url("css/evidence_footer.css");
