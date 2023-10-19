@@ -2,3 +2,4 @@
 
 # Мини-проект на промежуточный конкурс от Алгоритмики
 
+https://rub1dium.github.io/Halloween-Progect/index.html
