@@ -1,0 +1,141 @@
+.main {
+    width: 1600px;
+    height: auto;
+
+    padding: 20px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.main__decor_absolute {
+    width: 150px;
+
+    opacity: .3;
+
+    position: absolute;
+    pointer-events: none;
+}
+
+.decor__candy-bag {
+    transform: translateX(-30vw) rotate(30deg);
+}
+
+.decor__candy1 {
+    transform: translateX(40vw) translateY(170vh);
+}
+
+.decor__lollipop {
+    transform: translateX(-35vw) translateY(250vh);
+}
+
+.decor__finger {
+    transform: translateX(35vw) translateY(340vh);
+}
+
+.decor__halloween-candy {
+    transform: translateX(-40vw) translateY(530vh) rotate(45deg);
+}
+
+.decor__bag {
+    transform: translateX(-40vw) translateY(1030vh) rotate(40deg);
+}
+
+.decor__candy {
+    transform: translateX(40vw) translateY(630vh) rotate(45deg);
+}
+
+.decor__ghost {
+    transform: translateX(-40vw) translateY(850vh);
+}
+
+.decor__cocktail {
+    transform: translateX(33vw) translateY(946vh);
+}
+
+.main__chapter {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 74px;
+    font-weight: 800;
+    letter-spacing: 2.2px;
+}
+
+
+.main hr {
+    margin: 100px 0 100px 0;
+    border: 1px solid #636363;
+    width: 100%;
+}
+
+.main .section {
+    width: 1500px;
+    height: auto;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section__food-name {
+    color: #fff;
+    font-size: 46px;
+    font-family: "Open Sans";
+    font-weight: 800;
+}
+
+.section__block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+
+.section__food-image {
+    padding: 20px;
+
+    background-color: #5c0d32;
+    background-size: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #1d1815 inset;
+}
+
+table {
+    height: 10px;
+
+    border-spacing: 18px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+
+    color: #fff;
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align: end;
+}
+
+.section__block__step {
+    width: 250px;
+    padding: 20px;
+
+    background-color: #72113e;
+    border-radius: 12px;
+
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+
+    transition: .2s ease-in;
+}
+
+.section__block__step:hover {
+    background-color: #551432;
+}

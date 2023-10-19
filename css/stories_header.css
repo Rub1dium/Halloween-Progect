@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    -webkit-box-shadow: 5px 5px 5px -5px #191919 inset;
     background-color: #191919;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background: linear-gradient(180deg, #8100ea, #1c151f);
+    background: linear-gradient(180deg, #8100ea, #1c1c1d);
 }
 
 
@@ -22,7 +24,7 @@
 }
 
 body {
-    background-color: #1c151f;
+    background-color: #1c1c1d;
 }
 
 .header {

@@ -125,6 +125,15 @@
     box-shadow: 0 0 40px #999999;
 }
 
+.card-fourth {
+    background-color: #2b5361;
+}
+
+.card-fourth:hover {
+    background-color: #4BA5C6;
+    box-shadow: 0 0 40px #4BA5C6;
+}
+
 
 
 .card-first img:nth-child(1) {
@@ -180,6 +189,26 @@
 }
 
 .card-third img:nth-child(4) {
+    opacity: .2;
+    transform: translateX(-120px) translateY(-295px);
+}
+
+
+.card-fourth img:nth-child(1) {
+    opacity: .2;
+    transform: translateX(170px) translateY(-220px);
+}
+
+.card-fourth img:nth-child(2) {
+    transform: translateX(140px) translateY(195px);
+}
+
+.card-fourth img:nth-child(3) {
+    opacity: .1;
+    transform: translateX(-170px) translateY(220px) rotate(45deg);
+}
+
+.card-fourth img:nth-child(4) {
     opacity: .2;
     transform: translateX(-120px) translateY(-295px);
 }
