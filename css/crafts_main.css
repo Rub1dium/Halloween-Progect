@@ -38,3 +38,61 @@
     align-items: center;
     gap: 20px;
 }
+
+.section__craft-name {
+    color: #fff;
+    font-size: 46px;
+    font-family: "Open Sans";
+    font-weight: 800;
+}
+
+.section__craft-image {
+    padding: 20px;
+
+    background-color: #192327;
+    background-size: contain;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #1d1815 inset;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section__block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+table {
+    height: 10px;
+
+    border-spacing: 18px;
+    border: 1px solid #fff;
+    border-radius: 12px;
+
+    color: #fff;
+    font-size: 20px;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.section__block__step {
+    width: 300px;
+    padding: 20px;
+
+    background-color: #2b4955;
+    border-radius: 12px;
+
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+
+    transition: .2s ease-in;
+}
+
+.section__block__step:hover {
+    background-color: #22373f;
+}
+
