@@ -11,14 +11,54 @@
     gap: 80px;
 }
 
-.main__decor_absolute {
-    width: 150px;
+.main__decor__fixed {
+    width: 250px;
 
-    opacity: .3;
+    opacity: .2;
 
-    position: absolute;
+    position: fixed;
     pointer-events: none;
 }
+
+.decor__bone {
+    opacity: .05;
+    transform: translateX(-46vw) translateY(-32vh);
+}
+
+.decor__network:nth-child(2) {
+    opacity: .1;
+
+    filter: invert();
+
+    transform: translateX(-50vw) translateY(-26vh);
+}
+
+.decor__network:nth-child(3) {
+    opacity: .1;
+
+    filter: invert();
+
+    transform: translateX(-45vw) translateY(-40vh);
+}
+
+.decor__spider {
+    opacity: .2;
+    transform: translateX(45vw) translateY(-40vh);
+
+    pointer-events: all;
+
+    transition: .3s ease;
+}
+
+.decor__spider:hover {
+    opacity: .5;
+    transform: translateX(45vw) translateY(-31vh);
+}
+
+.decor__skull {
+    transform: translateX(-45vw) translateY(58vh);
+}
+
 
 .main hr {
     margin: 100px 0 100px 0;

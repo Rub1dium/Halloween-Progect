@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .main {
     width: 1600px;
     height: auto;
@@ -18,6 +22,42 @@
 
     position: absolute;
     pointer-events: none;
+}
+
+.main__decor_fixed {
+    width: 150px;
+
+    opacity: .2;
+
+    position: fixed;
+    pointer-events: none;
+}
+
+.decor_pumpkin_fixed {
+    width: 300px;
+    opacity: .05;
+    transform: translateX(50vw) translateY(-40vh) rotate(30deg);
+}
+
+.decor__network_fixed:nth-child(1) {
+    width: 300px;
+    opacity: .4;
+    filter: invert();
+    transform: translateX(-47vw) translateY(50vh);
+}
+
+.decor__network_fixed:nth-child(2) {
+    width: 200px;
+    opacity: .4;
+    filter: invert();
+    transform: translateX(-50vw) translateY(40vh);
+}
+
+.decor__network_fixed:nth-child(3) {
+    width: 300px;
+    opacity: .4;
+    filter: invert();
+    transform: translateX(-46vw) translateY(53vh);
 }
 
 .decor__candy-bag {

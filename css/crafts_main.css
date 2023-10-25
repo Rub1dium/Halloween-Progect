@@ -11,14 +11,33 @@
     gap: 80px;
 }
 
-.main__decor_absolute {
-    width: 150px;
+.main__decor__fixed {
+    width: 250px;
 
     opacity: .3;
 
-    position: absolute;
+    position: fixed;
     pointer-events: none;
 }
+
+.decor__origami {
+    opacity: .1;
+    transform: translateX(-47vw) translateY(-30vh) rotate(45deg);
+}
+
+.decor__spider {
+    pointer-events: all;
+
+    transform: translateX(47vw) translateY(50vh) rotate(-45deg);
+
+    transition: .3s ease;
+}
+
+.decor__spider:hover {
+    opacity: .7;
+    transform: translateX(44vw) translateY(47vh) rotate(-47deg);
+}
+
 
 .main hr {
     margin: 100px 0 100px 0;
@@ -49,7 +68,7 @@
 .section__craft-image {
     padding: 20px;
 
-    background-color: #192327;
+    background-color: #2d4850;
     background-size: contain;
     border-radius: 12px;
     box-shadow: 0 0 15px #1d1815 inset;
